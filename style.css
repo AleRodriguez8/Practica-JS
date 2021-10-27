@@ -1,0 +1,30 @@
+input[type=text], input[type=email], textarea {
+    border: 1px solid gray;
+    background-color:#DCDCDC ;
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+
+input[type=text]:focus{
+    border: 1px solid #DCDCDC;
+}
+
+input[type=text]{
+    width: 11%;
+}
+input[type=text], input[type=email]{
+    height: 30px;
+}
+input[type=email], textarea{
+    width: 23%;
+}
+
+textarea{
+    height: 120px;
+    resize: none;
+}
+
+button{
+    width: 23.75%;
+    height: 40px;
+}
