@@ -2,11 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento1</title>
+    <link rel="StyleSheet" href="style.css" type="text/css">
+    <title>Login</title>
 </head>
 <body>
-    <h1>FEATURE CARMEN</h1>
+    <div id="login" class="form">
+        <form> 
+          <h1>Login</h1> 
+          <p> 
+              <label for="username" class="uname" > Nombre de usuario: </label>
+              <input id="username" name="username" required="required" type="text" placeholder="nombre de usuario"/>
+          </p>
+          <p> 
+              <label for="password" class="contrasenia"> Contraseña:</label>
+              <input id="password" name="password" required="required" type="password" placeholder="contraseña" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+          </p>
+       
+          <p class="botonenvi"> 
+              <input type="submit" value="Enviar" /> 
+          </p>
+          <p class="link">
+              <a href="#pagdejuan" class="">Regístrate</a>
+          </p>
+        </form>
+      </div>
 </body>
 </html>
