@@ -1,3 +1,26 @@
+header{
+    background-color: rgb(105, 105, 105);
+    padding: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    background-color: turquoise;
+    margin-top: 10%;
+    text-align: center;
+    padding: 3%;
+    border:2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    
+}
+h3{
+    text-align: center;
+}
+
 input[type=text], input[type=email], textarea {
     border: 1px solid gray;
     background-color:#DCDCDC ;
@@ -5,18 +28,14 @@ input[type=text], input[type=email], textarea {
     padding: 5px 7px;
 }
 
-input[type=text]:focus{
-    border: 1px solid #DCDCDC;
-}
-
 input[type=text]{
-    width: 11%;
+    width: 22%;
 }
 input[type=text], input[type=email]{
     height: 30px;
 }
 input[type=email], textarea{
-    width: 23%;
+    width: 46%;
 }
 
 textarea{
@@ -25,6 +44,6 @@ textarea{
 }
 
 button{
-    width: 23.75%;
+    width: 48%;
     height: 40px;
 }

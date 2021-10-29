@@ -8,20 +8,36 @@
         <title>Disco Terra</title>
     </head>
     <body>
-        <form>
-            <p>
-                <input type="text" placeholder="Nombre" minlength="1" maxlength="15"/>
-                <input type="text" placeholder="Apellidos" minlength="1" maxlength="30"/>
-            </p>
-            <p>
-                <input type="email" placeholder="Correo" minlength="1" maxlength="25" />
-            </p>
-            <p>
-                <textarea type="text" placeholder="Escriba aqui su consulta..." ></textarea>
-            </p>
-            <p>
-                <button>Enviar</button>
-            </p>
-        </form>
+        <!--Añadir edad a registro-->
+        <header>
+            <img class="header-logo" src="" alt="">
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Inicio</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Sobre Nosotros</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="formulario">
+                <h2>Contacto</h2>
+                <form>
+                    <p>
+                        <input type="text" placeholder="Nombre" minlength="1" maxlength="15"/>
+                        <input type="text" placeholder="Apellidos" minlength="1" maxlength="30"/>
+                    </p>
+                    <p>
+                        <input type="email" placeholder="Correo" minlength="1" maxlength="25" />
+                    </p>
+                    <p>
+                        <textarea type="text" placeholder="Escriba aqui su consulta..." ></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
+        </main>
     </body>
 </html>
