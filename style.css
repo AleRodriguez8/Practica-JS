@@ -1,3 +1,21 @@
-*{
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(img/fondos.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.formulario{
+    background-color:rgb(25, 25, 66);
+    margin-top: 10%;
     text-align: center;
+    padding: 3%;
+    border:2px solid black;
+    border-radius: 25px;
+    width: 50%;
 }
