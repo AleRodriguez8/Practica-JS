@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <script  type="text/javascript" src="script.js"></script>
         <title>Disco Terra</title>
     </head>
     <body>
@@ -22,20 +23,12 @@
         <main>
             <div id="formulario">
                 <h2>Contacto</h2>
-                <form>
-                    <p>
-                        <input type="text" placeholder="Nombre" minlength="1" maxlength="15"/>
-                        <input type="text" placeholder="Apellidos" minlength="1" maxlength="30"/>
-                    </p>
-                    <p>
-                        <input type="email" placeholder="Correo" minlength="1" maxlength="25" />
-                    </p>
-                    <p>
+                <form id="form" onsubmit="ValidarForm()">
+                        <input type="text" id="nombre" placeholder="Nombre" />
+                        <input type="text" id="apellidos" placeholder="Apellidos"/>
+                        <input type="email" id="correo" placeholder="Correo"/>
                         <textarea type="text" placeholder="Escriba aqui su consulta..." ></textarea>
-                    </p>
-                    <p>
                         <button type="submit">Enviar</button>
-                    </p>
                 </form>
             </div>
         </main>

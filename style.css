@@ -6,21 +6,24 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 #formulario{
-    background-color: turquoise;
+    background-color: white;
     margin-top: 10%;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     border:2px solid black;
-    border-radius: 5px;
-    width: 50%;
+    width: 35%;
     
 }
 h3{
     text-align: center;
 }
-
+input, textarea, button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 input[type=text], input[type=email], textarea {
     border: 1px solid gray;
     background-color:#DCDCDC ;
@@ -29,13 +32,13 @@ input[type=text], input[type=email], textarea {
 }
 
 input[type=text]{
-    width: 22%;
+    width: 40%;
 }
 input[type=text], input[type=email]{
     height: 30px;
 }
 input[type=email], textarea{
-    width: 46%;
+    width: 83%;
 }
 
 textarea{
@@ -44,6 +47,6 @@ textarea{
 }
 
 button{
-    width: 48%;
+    width: 85%;
     height: 40px;
 }
