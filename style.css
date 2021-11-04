@@ -1,21 +1,50 @@
-
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(img/fondos.jpg.jpg);
-    background-position: center;
+    background-image: url(img/fondo.jpg.jpg);
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
+
 .formulario{
-    background-color:rgb(25, 25, 66);
+    
+    background-color: #C0C0C0;
     margin-top: 10%;
     text-align: center;
     padding: 3%;
-    border:2px solid black;
     border-radius: 25px;
-    width: 50%;
+    width: 20%;
+    opacity: 0.7;
 }
+
+.linea{
+    opacity: 1;
+}
+
+#username{
+    border: 1px solid gray;
+    background-color:#DCDCDC ;
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin:1%;
+}
+#password{
+    border: 1px solid gray;
+    background-color:#DCDCDC ;
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin:1%;
+}
+
+.botonenvi{
+    
+    margin-bottom: 1%;
+    border-radius: 25px;
+}
+
