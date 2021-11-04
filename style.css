@@ -1,20 +1,29 @@
-header{
-    background-color: rgb(105, 105, 105);
-    padding: 20px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(img/fondo.jpg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 #formulario{
-    background-color: white;
-    margin-top: 10%;
+    background-color: #C0C0C0;
+    margin-top: 30%;
     text-align: center;
-    padding: 1%;
-    border:2px solid black;
-    width: 35%;
+    padding: 3%;
+    border-radius: 25px;
+    width: 60%;
+    opacity: 0.9;
     
 }
 h3{
