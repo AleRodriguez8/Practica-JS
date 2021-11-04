@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="StyleSheet" href="style.css" type="text/css">
+    <script  type="text/javascript" src="script.js"></script>
     <title>Login</title>
 </head>
 <body>
     <div id="login" class="formulario">
-        <form> 
-          <h1>LOGIN</h1> 
-          <p class="linea"> 
+        <h1>LOGIN</h1> 
+        <form id="form" onsubmit="ValidaForm()"> 
+          
+          <p> 
               <label for="username" class="uname" id="nombre"> Usuario: </label>
               <input id="username" name="username" required="required" type="text" placeholder="Nombre de usuario"/>
           </p>
-          <p class="linea"> 
+          <p> 
               <label for="password" class="contrasenia"> Contraseña:</label>
               <input id="password" name="password" required="required" type="password" placeholder="Contraseña" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
           </p>
