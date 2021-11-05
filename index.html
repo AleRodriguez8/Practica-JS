@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento1</title>
+    <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen> ...
+    <script  type="text/javascript" src="script.js"></script>
+    <title>DISCO TERRA</title>
 </head>
 <body>
-    <p>hOLA PRUEBA</p>
+    <header id="main-header">
+		
+        <a id="logo-header" href="#">
+            <span class="site-name">DISCO TERRA</span>
+            <span class="site-desc">rrpp de discotecas</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Login/Registro</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <div id="register" class="form">
+        <form  action="mysuperscript.php" onsubmit="ValidarForm()" autocomplete="on"> 
+          <h1 id="logo"> Registro</h1> 
+          <p> 
+              <label for="username" class="uname" >Tu nombre</label>
+              <input id="username" name="username" required="required" type="text" placeholder="Nombre" />
+          </p>
+          <p> 
+              <label for="email" class="youmail" > Tu email</label>
+              <input id="email" name="emails" required="required" type="email" placeholder="ejemplo@mail.com"/> 
+          </p>
+          <p> 
+              <label for="password" class="youpasswd" >Tu password </label>
+              <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/> 
+          </p>
+          <p> 
+              <label for="password_confirm" class="youpasswd" >Confirma tu password </label>
+              <input id="password_confirm" name="password_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+          </p>
+          <p class="signin button"> 
+              <input type="submit" value="Registro"/> 
+          </p>
+          <p class="change_link">  
+              Ya eres miembro
+              <a href="#tologin" class="to_register"> Loguéate </a>
+          </p>
+        </form>
+      </div>
+
 </body>
 </html>
