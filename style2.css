@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:wght@300&family=Oswald:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+body {
+	/*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdiscotecas-madrid.es%2Fwp-content%2Fuploads%2F2012%2F09%2Fdicotecas-5.jpg&f=1&nofb=1);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 14px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family:'Bebas Neue', cursive;
+    background-image: url(fondo.jpg);
+    height: 100vh;
+  }
+  
+
+#register {
+    background: #111;
+   /* background: linear-gradient(#4d4d4d, #C0C0C0);*/
+    background-color: #C0C0C0;
+    border: 1px solid gray;
+    /*box-shadow: 0 0 15px #00fffd;*/
+    border-radius: 15px;
+    display: inline-block;
+    height: 290px;
+    margin: 100px auto 0;
+    position: relative;
+    z-index: 4;
+    width: 500px;
+    color: rgb(39, 39, 39);
+	opacity: 90%;
+}
+
+
+header{
+    width: 100%; 
+                                                     /*NAV*/
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family:'Bebas Neue', cursive;
+    color: white;
+    padding: 0.5% 1%;
+    display: flex;
+    margin: 0 2%;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo i{
+    color: yellow;
+    width: 20px;
+    height: 31px;
+    margin-left: 5px;
+}
+.bar-btn i{
+    color: #fff;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.bar-btn i:hover{
+    color: yellow;
+    transition: .3s;
+}
+.nav-menu{
+    position: fixed;
+    width: 140%;
+    height: 0vh;
+    top: 10vh;
+    background: rgba(0, 0, 0, .95);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li{
+    display: none;
+    font-size: 2.5em;
+    padding: 25px;
+    margin: 20px 0;
+    color: #fff;
+    transition: all .5s;
+}
+.nav-menu li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: yellow;
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RRSS{
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.RRSS-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RRSS-container li{
+    margin: 10px 15px;
+    margin-top: 3px;
+}
+.RRSS-container li a{
+    color: black;
+}
+#yt:hover{
+    color: red;
+}
+#tw:hover{
+    color:#00acee;
+}
+#f:hover{
+    color: #3b5998;
+}
+#i:hover{
+    background:radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+    /*-webkit-background-clip: text;*/
+    color:transparent;
+}
