@@ -14,8 +14,8 @@ var contra = document.getElementById("password").value;
 var espacios = false;
 var cont = 0;
 
-while (!espacios && (cont < p1.length)) {
-  if (p1.charAt(cont) == " ")
+while (!espacios && (cont < contra.length)) {
+  if (contra.charAt(cont) == " ")
     espacios = true;
   cont++;
 }
