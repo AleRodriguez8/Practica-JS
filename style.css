@@ -22,6 +22,8 @@ header{
     width: 100%;
     background-color:#C0C0C0;
     opacity: .7;
+    position: absolute;
+    top: 0%;
 
 }
 .nav-menu{
