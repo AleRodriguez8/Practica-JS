@@ -9,6 +9,29 @@
     box-sizing: border-box;
     
 }
+header{
+    width: 100%;
+    background-color:#C0C0C0;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+}
+.nav-menu li{
+    list-style: none;
+    margin: 5px 15px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    
+}
 body{
     display: flex;
     justify-content: center;

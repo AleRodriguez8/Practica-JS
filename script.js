@@ -19,7 +19,7 @@ function ValidarContacto(){
     }else if(email.length>40){
         alert("Demasiados Caracteres email");
     }else if (/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email)){
-        alert("La dirección de email " + email + " es correcta.");
+        alert("Datos correctos, escriba su mensaje.");
     } else {
         alert("La dirección de email es incorrecta." + email);
     }
