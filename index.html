@@ -6,24 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         <script  type="text/javascript" src="script.js"></script>
+        <script src="https://kit.fontawesome.com/90ac267048.js" crossorigin="anonymous"></script>
         <title>Disco Terra</title>
     </head>
-    <body>
-        <!--Añadir edad a registro-->
-        <!--<header>
-            <img class="header-logo" src="" alt="">
-            <nav class="header-nav">
-                <ul class="header-nav__list">
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Inicio</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Sobre Nosotros</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>-->
+    <body>  
         <main>
             <div id="formulario">
                 <h2>Contacto</h2>
-                <form id="form" onsubmit="ValidarForm()">
+                <form id="form" onsubmit="ValidarContato()">
                         <input type="text" id="nombre" placeholder="Nombre" />
                         <input type="text" id="apellidos" placeholder="Apellidos"/>
                         <input type="email" id="email" placeholder="Correo"/>
@@ -32,5 +22,20 @@
                 </form>
             </div>
         </main>
+        
+        <footer>
+            <div class="RRSS">
+                <p>Síguenos en:</p>
+                <div class="RRSS-container">
+                    <ul>
+                        <li><a href="" id="yt" class="fab fa-youtube"></a></li>
+                        <li><a href="" id="tw" class="fab fa-twitter"></a></li>
+                        <li><a href="" id="f" class="fab fa-facebook"></a></li>
+                        <li><a href="" id="i" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+                <p>Todos los derechos reservados®</p>
+            </div>
+        </footer>
     </body>
 </html>

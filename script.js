@@ -1,4 +1,4 @@
-function ValidarForm(){
+function ValidarContacto(){
     var nombre = document.getElementById("nombre").value;
     if(nombre.length==0){
         alert("Elemento vacio nombre");

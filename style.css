@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:wght@300&family=Oswald:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
 body{
     display: flex;
     justify-content: center;
@@ -24,7 +35,6 @@ main{
     border-radius: 25px;
     width: 60%;
     opacity: 0.9;
-    
 }
 h3{
     text-align: center;
@@ -41,7 +51,7 @@ input[type=text], input[type=email], textarea {
 }
 
 input[type=text]{
-    width: 40%;
+    width: 41.25%;
 }
 input[type=text], input[type=email]{
     height: 30px;
@@ -58,4 +68,52 @@ textarea{
 button{
     width: 85%;
     height: 40px;
+}
+
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.RRSS{
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.RRSS-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RRSS-container li{
+    margin: 10px 15px;
+    margin-top: 3px;
+}
+.RRSS-container li a{
+    color: black;
+}
+#yt:hover{
+    color: red;
+}
+#tw:hover{
+    color:#00acee;
+}
+#f:hover{
+    color: #3b5998;
+}
+#i:hover{
+    background:radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+    -webkit-background-clip: text;
+    color:transparent;
 }
