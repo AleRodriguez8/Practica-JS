@@ -1,25 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SevillaParty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90ac267048.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img class="header-logo" src="" alt="">
-        <nav class="header-nav">
-            <ul class="header-nav__list">
-                <li class="header-nav__item"><a class="header-nav__link" href="">Inicio</a></li>
-                <li class="header-nav__item"><a class="header-nav__link" href="">Sobre Nosotros</a></li>
-                <li class="header-nav__item"><a class="header-nav__link" href="">Contacto</a></li>
+        <nav>
+            <div class="logo">
+                <h1>SevillaParty<i class="fas fa-star"></i></h1>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+               <li ><a class="active" href="">Inicio</a></li>
+               <li ><a href="">Reservar</a></li>
+               <li ><a href="">Sobre Nosotros</a></li>
+               <li ><a href="">Contacto</a></li>
+               <li ><a class="fas fa-user-circle" href=""></a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="content">
+            <h2>¿A qué esperas?</h2>
+            <h1>¡Disfruta de las mejores fiestas de Sevilla!</h1>
+            <div class="body-btn">
+                <a href="" class="btn">Reserva ya</a>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="RRSS">
+            <p>Síguenos en:</p>
+            <div class="RRSS-container">
+                <ul>
+                    <li><a href="" id="yt" class="fab fa-youtube"></a></li>
+                    <li><a href="" id="tw" class="fab fa-twitter"></a></li>
+                    <li><a href="" id="f" class="fab fa-facebook"></a></li>
+                    <li><a href="" id="i" class="fab fa-instagram"></a></li>
+                </ul>
+            </div>
+            <p>Todos los derechos reservados®</p>
+        </div>
     </footer>
 </body>
 </html>
