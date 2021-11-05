@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:wght@300&family=Oswald:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    background-color:#C0C0C0;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+}
+.nav-menu li{
+    list-style: none;
+    margin: 5px 15px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(img/fondo.jpg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    background-color: #C0C0C0;
+    margin-top: 30%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 25px;
+    width: 60%;
+    opacity: 0.9;
+}
+h3{
+    text-align: center;
+}
+input, textarea, button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+input[type=text], input[type=email], textarea {
+    border: 1px solid gray;
+    background-color:#DCDCDC ;
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+
+input[type=text]{
+    width: 41.25%;
+}
+input[type=text], input[type=email]{
+    height: 30px;
+}
+input[type=email], textarea{
+    width: 83%;
+}
+
+textarea{
+    height: 120px;
+    resize: none;
+}
+
+button{
+    width: 85%;
+    height: 40px;
+}
+
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.RRSS{
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.RRSS-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RRSS-container li{
+    margin: 10px 15px;
+    margin-top: 3px;
+}
+.RRSS-container li a{
+    color: black;
+}
+#yt:hover{
+    color: red;
+}
+#tw:hover{
+    color:#00acee;
+}
+#f:hover{
+    color: #3b5998;
+}
+#i:hover{
+    background:radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+    -webkit-background-clip: text;
+    color:transparent;
+}
